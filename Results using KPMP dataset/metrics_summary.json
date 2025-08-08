@@ -1,0 +1,34 @@
+{
+  "test_samples": 1249,
+  "unique_patients": 46,
+  "overall_accuracy": 0.9847878302642114,
+  "roc_auc": 0.9949631055502086,
+  "non_global_sclerotic": {
+    "count": 1039,
+    "precision": 0.9922779922779923,
+    "recall": 0.9894128970163619,
+    "f1_score": 0.9908433734939759
+  },
+  "global_sclerotic": {
+    "count": 210,
+    "precision": 0.9483568075117371,
+    "recall": 0.9619047619047619,
+    "f1_score": 0.9550827423167849
+  },
+  "confusion_matrix": [
+    [
+      1028,
+      11
+    ],
+    [
+      8,
+      202
+    ]
+  ],
+  "embedding_distances": {
+    "mean": 1.0074157967421955,
+    "std": 0.06299711328036,
+    "min": 0.8188129805412403,
+    "max": 1.1704910661425596
+  }
+}
